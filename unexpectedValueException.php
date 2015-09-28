@@ -6,7 +6,7 @@
  * Date: 9/28/2015
  * Time: 9:42 PM
  */
-class unexpectedValueException
+class unexpectedValueExceptionClass
 {
     const TYPE_FOO = 'foo';
     const TYPE_BAR = 'bar';
@@ -18,5 +18,6 @@ class unexpectedValueException
     }
 }
 
-$doSomething = new UnexpectedValueException();
-$doSomething->doSomething("blabla");
+$doSomething = new unexpectedValueExceptionClass();
+//$doSomething->doSomething("blabla");
+$doSomething->doSomething(unexpectedValueExceptionClass::TYPE_BAR);
