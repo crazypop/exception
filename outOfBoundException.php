@@ -45,5 +45,6 @@ class AA implements ArrayAccess {
 
 $a = new AA();
 $val = $a->offsetGet("three");
+//$val = $a->offsetGet(3);
 var_dump($val);
 
